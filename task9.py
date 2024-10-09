@@ -24,8 +24,6 @@ with open("task9.csv", "r") as file:
 # print(stocks)
 
 for stock in stocks:
-    change = stocks[stock][-1]/stocks[stock][0]*100
-    change = round(stocks[stock][-1] / stocks[stock][0] * 100, 2)
-    plt.plot(date, stocks[stock], label=f"{stock}: {change}%")
-plt.legend()
+    plt.plot(date, stocks[stock], label=f"{stock}%")
+
 plt.show()
