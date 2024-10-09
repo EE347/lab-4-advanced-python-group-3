@@ -18,7 +18,7 @@ class RandomNumberGenerator():
     
     
 if __name__ == '__main__':
-    random_number_generator = RandomNumberGenerator(seed=110, lower_bound=0, upper_bound=100)
+    random_number_generator = RandomNumberGenerator(seed=10, lower_bound=0, upper_bound=100)
     print(random_number_generator.random_int())
     print(random_number_generator.random_float())
     
